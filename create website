@@ -1,0 +1,256 @@
+!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Web development
+    </title>
+
+  <link rel="stylesheet" href="styles/text.css">
+   
+   <style>
+     .img{
+        width: 300px;
+        height: 250px;
+        border-radius: 18px;
+     }
+
+     .selwyn{
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 10px;
+     }
+   </style>
+</head>
+
+<body>
+
+    <div class="selwyn">
+        <img class="img" src="images/DSC_0166.jpg" >
+
+        <p class="video-title">
+            Talking Tech and AI with Google CEO Sundar Pichai
+        </p>
+    
+        <p class="views-paragraph">
+            3.4M views &#183; 6 months ago
+        </p>
+    
+        <p class="video-author">
+            Selwyn bluntSmoke &check;
+        </p>
+    
+        <p class="video-description">
+           Talking tech and AI on the heels of 
+           Google I/O. Also a daily driver phone reveal 
+           from Goodle's CEO to Sundar!
+        </p >
+    </div>
+
+     <div class="selwyn">
+        <img class="img" src="images/FB_IMG_1655308911623.jpg" >
+
+        <p class="vid-title">
+            Talking HTML and CSS
+        </p>
+    
+        <p class="v-paragraph">
+            7.4M views &#183; 3 years ago
+        </p>
+    
+        <p class="vid-author">
+            Vuyani Mahlasi &check;
+        </p>
+    
+        <p class="vid-description">
+           Introducing course crash for HTML and
+           CSS to become a web developer.
+        </p >
+     </div>
+    
+     <p class="video-buy">
+        
+        Shop early for the best selection of 
+        holiday favourites. <span class="span-buy">Shop now</span>  &gt;
+      </p>
+ 
+</body>
+</html>
+
+
+                                
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Buttons</title>
+
+     <link rel="stylesheet" href="styles/buttons.css">
+</head>
+
+<body>
+
+    <button class= "subscribe-button"> 
+        SUBSCRIBE
+    </button>
+ 
+    <button class="join-button">
+     JOIN
+    </button>
+ 
+    <button class="tweet-button">
+     TWEET
+    </button>
+</body>
+</html>
+
+
+    .subscribe-button{
+    background-color: red ;
+    color: white;
+    border: none;
+    border-radius:2px;
+    cursor: pointer;
+    height: 55px;
+    width: 105px;
+    margin-right: 20px;
+    transition: opacity 0.15s
+    
+} 
+ 
+.subscribe-button:hover{
+   opacity: 0.8;     
+}
+.subscribe-button:active{
+    opacity: 0.3;   
+}
+
+ .join-button{
+     background-color: white;
+     color: blue;
+     border-radius: 2px;
+     border-color:blue;
+     border-width: 1px;
+     border-style: solid;
+     height:55px;
+     width:80px;
+     cursor: pointer;
+     margin-right: 20px;
+     transition: opacity 0.15s, color 0.15s;
+ }
+ .join-button:hover{
+     background-color: blue;
+     color:white;
+
+ }
+ .join-button:active{
+   opacity: 0.4;
+ }
+
+ .tweet-button{
+     background-color: blue;
+     color:white;
+     border:none;
+     border-radius: 18px;
+     height: 36px;
+     width:74px;
+     font-weight: bold;
+     font-size: 12px;
+     cursor:pointer;
+     transition: opacity 0.15s;
+ }
+
+ .tweet-button:hover{
+    opacity:0.9;
+ }
+ .tweet-button:active{
+     opacity:0.3;
+ }
+
+
+
+
+ p{
+    font-family: Arial;
+    margin-top:0px;
+  }
+  .video-title{
+       
+      font-size:18px;
+      font-weight: bold;
+      width:300px;
+      line-height: 30px;
+      margin-bottom:5px;
+
+  }
+
+  .views-paragraph{
+       
+      font-size:14px;
+      color:gray;
+      margin-bottom:20px;
+
+  }
+
+  .video-author{
+       
+      font-size:14px;
+      margin-bottom:20px;
+  }
+
+  .video-description{
+     
+    font-size:14px;
+    width:280px;
+    margin-bottom:30px;
+  }
+
+  .video-buy{
+    font-size:14px;
+    text-align: center;
+    background-color: red;
+    color:white;
+    padding-top: 18px;
+    padding-bottom:18px;
+    padding-left: 10px;
+    padding-right:10px;
+  }
+   
+  .span-buy{
+      cursor: pointer;
+  }
+  .span-buy:hover{
+      text-decoration: underline;
+  }
+
+  .vid-title{
+       
+    font-size:18px;
+    font-weight: bold;
+    width:300px;
+    line-height: 30px;
+    margin-bottom:5px;
+
+}
+
+.v-paragraph{
+     
+    font-size:14px;
+    color:gray;
+    margin-bottom:20px;
+
+}
+
+.vid-author{
+      
+    font-size:14px;
+    margin-bottom:20px;
+}
+
+.vid-description{
+   
+  font-size:14px;
+  width:280px;
+  margin-bottom:30px;
+}
